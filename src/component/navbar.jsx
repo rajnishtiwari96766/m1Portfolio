@@ -3,24 +3,26 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-        <div className='h-20 bg-stone-600'>
-            <h1 className='font-bold text-xl font-logo px-4'>
+        <div className='h-20 w-full bg-stone-600 text-white flex items-center justify-between fixed'>
+            <h1 className='font-bold font-logo px-16 text-4xl'>
                 Rajnish
             </h1>
-            <div className=' text-white flex items-center justify-between '>
-            <div>
+            
+            <div className='flex px-10'>
+            <div className='px-10'>
                 Home
             </div>
-            <div>
+            <div className='px-10'>
                 Experience
             </div>
-            <div>
+            <div className='px-10'>
                 About me
             </div>
-            <div>
+            <div className='px-10'>
                 Contact
             </div>
             </div>
+            
     </div>
     </div>
   )
