@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from './sidebar'
 import Home from './home'
+import Experience from './experience'
 
 const Body = () => {
   return (
@@ -8,6 +9,7 @@ const Body = () => {
     <div className='h-screen bg-black overflow-x-auto'>
   <Sidebar/>
   <Home/>
+  <Experience/>
  </div>
     </div>
   )
