@@ -9,6 +9,23 @@ const Experience = () => {
         <div>
         <Cards/>
         </div>
+        <div>
+        <Cards/>
+        </div>
+        <div>
+        <Cards/>
+        </div>
+    </div>
+    <div className='flex p-5 m-2'>     
+        <div>
+        <Cards/>
+        </div>
+        <div>
+        <Cards/>
+        </div>
+        <div>
+        <Cards/>
+        </div>
     </div>
     </div>
   )
